@@ -23,8 +23,8 @@ public class Qes1_13 {
 		nagai =0;
 		tannsei = 0.0f;
 		bai = 0.0;
-		mozi = '0';
-		moziretu = "abcd";
+		mozi = '\u0000';
+		moziretu = "null";
 		buriann = false;
 
 		//3
@@ -51,8 +51,9 @@ public class Qes1_13 {
 		
 		//5
 		String num="20";
+		int num2 = Integer.parseInt(num);
 		int num1=23;
-		System.out.println("ハローJAVA"+num+num1);
+		System.out.println("ハローJAVA"+(num2+num1));
 		
 		//6
 		String name = "山田太郎";
