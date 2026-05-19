@@ -2,14 +2,14 @@ package curriculum1_18;
 
 public class Curriculum_New_1_18 {
 	// Q1：引数に文字列型と整数型をいれてコンソールに「Hello JavaSE 11」と出力するメソッドを作成してください。
-	public static void ptintMessage(String text, int number) {
+	public static void prtintMessage(String text, int number) {
 
 		System.out.printf("%-12s %d%n", text, number);
 
 	}
 
 	// Q2：引数に整数を渡すと渡した値同士を乗算しコンソールに出力するメソッドを作成してください
-	public static void printSquaer(int num) {
+	public static void printSquare(int num) {
 		int result = num * num;
 		System.out.println(result);
 	}
@@ -73,8 +73,8 @@ public class Curriculum_New_1_18 {
 
 	public static void main(String[] args) {
 		// 作成したメソッドをここで呼び出してください
-		ptintMessage("Hello JavaSE", 11);
-		printSquaer(5);
+		prtintMessage("Hello JavaSE", 11);
+		printSquare(5);
 		int[] numbers = { 1, 2, 3, 4, 5 };
 		printArray(numbers);
 		printSquare(2.5, 3.5);
