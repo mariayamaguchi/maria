@@ -1,4 +1,6 @@
-package question20_22;
+package question20_22.main;
+
+import question20_22.Theme.Theme2;
 
 public class Main {
 
