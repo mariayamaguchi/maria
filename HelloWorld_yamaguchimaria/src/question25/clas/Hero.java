@@ -16,11 +16,11 @@ public class Hero extends Person {
 
 		Random random = new Random();
 
-		hp = random.nextInt(1000);
-		mp = random.nextInt(1000);
-		attack = random.nextInt(1000);
-		speed = random.nextInt(1000);
-		defense = random.nextInt(1000);
+		hp = random.nextInt(1000)+1;
+		mp = random.nextInt(1000)+1;
+		attack = random.nextInt(1000)+1;
+		speed = random.nextInt(1000)+1;
+		defense = random.nextInt(1000)+1;
 	}
 	 public int getHp() {
 	        return hp;
